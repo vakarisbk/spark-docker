@@ -25,6 +25,8 @@ on:
       - 'master'
     paths:
       - '3.5.0/**'
+  # for testing    
+  workflow_dispatch:
 
 jobs:
   run-build:
